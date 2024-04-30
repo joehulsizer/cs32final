@@ -1,0 +1,9 @@
+2024-04-29 07:18:27.186 [info] 
+
+
+
+
+2024-04-29 07:18:27.202 [info] Extension host agent started.
+2024-04-29 07:18:27.309 [info] Deleted uninstalled extension from disk github.copilot-chat /home/bitnami/.vscode-server/extensions/github.copilot-chat-0.2.2
+2024-04-29 07:18:27.346 [error] [127.0.0.1][8d7da530][ManagementConnection] Unknown reconnection token (never seen).
+2024-04-29 07:23:27.202 [info] Last EH closed, shutting down

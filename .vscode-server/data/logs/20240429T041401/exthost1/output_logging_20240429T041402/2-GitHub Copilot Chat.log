@@ -1,0 +1,3 @@
+[INFO] [auth] [2024-04-29T04:14:05.317Z] Invalid copilot token: missing token: 403 
+[ERROR] [default] [2024-04-29T04:14:05.319Z] GitHub Copilot could not connect to server. Extension activation failed: "Contact Support. You are currently logged in as joehulsizer."
+[ERROR] [auth] [2024-04-29T04:59:09.991Z] Error while sending notification: Canceled

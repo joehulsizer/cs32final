@@ -1,0 +1,6 @@
+Listening on 127.0.0.1:44635
+[2024-04-30 00:50:55] info Disposed of connection to running server.
+looking for token 4ea0804e-eca5-4a98-8b58-1d22efa741f9, got Some("4ea0804e-eca5-4a98-8b58-1d22efa741f9")
+[2024-04-30 00:50:55] info Checking /home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/log.txt and /home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/pid.txt for a running server...
+[2024-04-30 00:50:55] info Starting server...
+[2024-04-30 00:50:55] info Server started

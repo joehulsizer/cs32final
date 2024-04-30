@@ -1,0 +1,15 @@
+2024-04-29 01:35:52.725 [info] Extension host with pid 326448 started
+2024-04-29 01:35:52.746 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/19dd6934f83ad7a514f674d56b985eb1/vscode.lock': Lock acquired.
+2024-04-29 01:35:52.829 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-29 01:35:52.830 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-04-29 01:35:52.831 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-04-29 01:35:53.235 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-04-29 01:35:53.235 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-04-29 01:35:53.834 [info] Eager extensions activated
+2024-04-29 01:35:53.834 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 01:35:53.835 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 01:35:53.836 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 01:35:53.836 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 02:50:33.007 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-04-29 02:50:33.008 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/19dd6934f83ad7a514f674d56b985eb1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-04-29 02:50:33.101 [info] Extension host with pid 326448 exiting with code 0

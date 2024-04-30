@@ -1,0 +1,104 @@
+2024-04-29 18:29:14.117 [info] [FetcherService] Using Helix fetcher
+2024-04-29 18:29:14.117 [info] [gitExtensionService] Initializing Git extension service.
+2024-04-29 18:29:14.117 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-04-29 18:29:14.117 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-04-29 18:29:14.117 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-04-29 18:29:15.018 [info] [auth] GitHub login failed
+2024-04-29 18:29:15.035 [info] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-04-29 18:29:15.252 [info] [auth] GitHub login failed
+2024-04-29 18:43:15.162 [info] [auth] Logged in as joehulsizer
+2024-04-29 18:43:15.163 [info] [auth] Logged in as joehulsizer
+2024-04-29 18:43:15.163 [info] [auth] Logged in as joehulsizer
+2024-04-29 18:43:15.163 [info] [auth] Logged in as joehulsizer
+2024-04-29 18:43:16.065 [info] [auth] Invalid copilot token: missing token: 403 
+2024-04-29 18:43:16.066 [info] [auth] Invalid copilot token: missing token: 403 
+2024-04-29 18:43:16.068 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token"
+2024-04-29 18:43:16.088 [info] [auth] Invalid copilot token: missing token: 403 
+2024-04-29 18:43:16.097 [info] [auth] Invalid copilot token: missing token: 403 
+2024-04-29 18:43:16.098 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "Failed to get copilot token"
+2024-04-29 18:44:56.753 [info] [auth] Logged in as joehulsizer
+2024-04-29 18:44:56.753 [info] [auth] Logged in as joehulsizer
+2024-04-29 18:44:56.753 [info] [auth] Logged in as joehulsizer
+2024-04-29 18:44:56.753 [info] [auth] Logged in as joehulsizer
+2024-04-29 18:44:56.754 [info] [auth] Logged in as joehulsizer
+2024-04-29 18:44:56.754 [info] [auth] Logged in as joehulsizer
+2024-04-29 18:44:56.754 [info] [auth] Logged in as joehulsizer
+2024-04-29 18:44:56.754 [info] [auth] Logged in as joehulsizer
+2024-04-29 18:44:57.761 [info] [chat] copilot token chat_enabled: true
+2024-04-29 18:44:57.761 [info] [chat] Registration of interactive providers failed:,Error: Extension 'GitHub.copilot-chat' CANNOT use API proposal: aiTextSearchProvider.
+Its package.json#enabledApiProposals-property declares: handleIssueUri, interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver but NOT aiTextSearchProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.copilot-chat
+2024-04-29 18:44:57.761 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-04-29 18:44:57.761 [info] [githubTitleAndDescriptionProvider] GitHub.vscode-pull-request-github extension is not yet activated.
+2024-04-29 18:44:57.764 [info] [auth] Got Copilot token for joehulsizer
+2024-04-29 18:44:57.786 [info] [chat] copilot token chat_enabled: true
+2024-04-29 18:44:57.786 [info] [auth] Got Copilot token for joehulsizer
+2024-04-29 18:44:57.855 [info] [chat] copilot token chat_enabled: true
+2024-04-29 18:44:57.855 [info] [auth] Got Copilot token for joehulsizer
+2024-04-29 18:44:57.876 [info] [chat] copilot token chat_enabled: true
+2024-04-29 18:44:57.876 [info] [auth] Got Copilot token for joehulsizer
+2024-04-29 18:44:57.951 [info] [chat] copilot token chat_enabled: true
+2024-04-29 18:44:57.951 [info] [auth] Got Copilot token for joehulsizer
+2024-04-29 18:44:58.139 [info] [chat] copilot token chat_enabled: true
+2024-04-29 18:44:58.139 [info] [auth] Got Copilot token for joehulsizer
+2024-04-29 18:44:58.188 [info] [chat] copilot token chat_enabled: true
+2024-04-29 18:44:58.188 [info] [auth] Got Copilot token for joehulsizer
+2024-04-29 18:44:58.207 [info] [chat] copilot token chat_enabled: true
+2024-04-29 18:44:58.207 [info] [auth] Got Copilot token for joehulsizer
+2024-04-29 19:08:42.398 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-29 19:08:42.398 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-04-29 19:08:42.398 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-29 19:08:42.398 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-04-29 19:08:42.922 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 523 ms
+2024-04-29 19:08:42.980 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-29 19:08:42.982 [info] [streamChoices] request done: requestId: [bb223dee-a95f-4624-944d-f46d4971fdaa] responseId: [bb223dee-a95f-4624-944d-f46d4971fdaa] model deployment ID: [x4dff5e5d11fc]
+2024-04-29 19:08:43.149 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-29 19:08:43.150 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-04-29 19:08:43.150 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-29 19:08:43.150 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-04-29 19:08:43.507 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 356 ms
+2024-04-29 19:08:44.014 [info] [streamMessages] message 0 returned. finish reason: [client-trimmed]
+2024-04-29 19:08:44.015 [info] [streamChoices] request done: requestId: [ef00ccc5-690e-406d-9d8f-f8cb14c7b8db] responseId: [ef00ccc5-690e-406d-9d8f-f8cb14c7b8db] model deployment ID: [x4dff5e5d11fc]
+2024-04-29 19:09:58.291 [info] [auth] Logged in as joehulsizer
+2024-04-29 19:09:58.502 [info] [chat] copilot token chat_enabled: true
+2024-04-29 19:09:58.502 [info] [auth] Got Copilot token for joehulsizer
+2024-04-29 19:34:58.682 [info] [auth] Logged in as joehulsizer
+2024-04-29 19:34:58.848 [info] [chat] copilot token chat_enabled: true
+2024-04-29 19:34:58.848 [info] [auth] Got Copilot token for joehulsizer
+2024-04-29 19:55:06.247 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-29 19:55:06.247 [info] [chat fetch] modelMaxPromptTokens 3072
+2024-04-29 19:55:06.247 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-29 19:55:06.247 [info] [chat fetch] chat model gpt-4
+2024-04-29 19:55:07.271 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1022 ms
+2024-04-29 19:55:13.426 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-29 19:55:13.428 [info] [streamChoices] request done: requestId: [625c8beb-86b5-417f-863f-cf4b466ec91f] responseId: [625c8beb-86b5-417f-863f-cf4b466ec91f] model deployment ID: []
+2024-04-29 19:55:13.494 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-29 19:55:13.494 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-04-29 19:55:13.494 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-29 19:55:13.494 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-04-29 19:55:13.855 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 360 ms
+2024-04-29 19:55:13.893 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-29 19:55:13.894 [info] [streamChoices] request done: requestId: [40656b6f-e011-4b50-a0fa-b0d6f8620c8b] responseId: [40656b6f-e011-4b50-a0fa-b0d6f8620c8b] model deployment ID: [x4dff5e5d11fc]
+2024-04-29 19:59:59.051 [info] [auth] Logged in as joehulsizer
+2024-04-29 19:59:59.226 [info] [chat] copilot token chat_enabled: true
+2024-04-29 19:59:59.227 [info] [auth] Got Copilot token for joehulsizer
+2024-04-29 20:22:39.010 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-29 20:22:39.011 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-04-29 20:22:39.011 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-29 20:22:39.011 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-04-29 20:22:39.509 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 495 ms
+2024-04-29 20:22:39.581 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-04-29 20:22:39.582 [info] [streamChoices] request done: requestId: [6c6613f2-9537-4605-b4e5-3339c3f91be7] responseId: [6c6613f2-9537-4605-b4e5-3339c3f91be7] model deployment ID: [x4dff5e5d11fc]
+2024-04-29 20:22:40.903 [info] [chat fetch] url https://api.githubcopilot.com/chat/completions
+2024-04-29 20:22:40.904 [info] [chat fetch] modelMaxPromptTokens 7168
+2024-04-29 20:22:40.904 [info] [chat fetch] modelMaxResponseTokens 4096
+2024-04-29 20:22:40.904 [info] [chat fetch] chat model gpt-3.5-turbo
+2024-04-29 20:22:41.349 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 443 ms
+2024-04-29 20:22:41.421 [info] [streamMessages] message 0 returned. finish reason: [client-trimmed]
+2024-04-29 20:22:41.422 [info] [streamChoices] request done: requestId: [d0815fe8-a68c-4afc-aa5a-17a9b32715e5] responseId: [d0815fe8-a68c-4afc-aa5a-17a9b32715e5] model deployment ID: [x4dff5e5d11fc]
+2024-04-29 20:24:59.407 [info] [auth] Logged in as joehulsizer
+2024-04-29 20:24:59.556 [info] [chat] copilot token chat_enabled: true
+2024-04-29 20:24:59.556 [info] [auth] Got Copilot token for joehulsizer
+2024-04-29 21:00:09.308 [info] [auth] Logged in as joehulsizer
+2024-04-29 21:00:09.965 [info] [chat] copilot token chat_enabled: true
+2024-04-29 21:00:09.966 [info] [auth] Got Copilot token for joehulsizer

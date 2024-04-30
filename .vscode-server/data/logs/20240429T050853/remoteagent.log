@@ -1,0 +1,39 @@
+2024-04-29 05:08:53.503 [info] 
+
+
+
+
+2024-04-29 05:08:53.515 [info] Extension host agent started.
+2024-04-29 05:08:53.983 [info] [127.0.0.1][8d7da530][ManagementConnection] New connection established.
+2024-04-29 05:08:54.330 [info] [127.0.0.1][2a3f4b1e][ExtensionHostConnection] New connection established.
+2024-04-29 05:08:54.547 [info] [127.0.0.1][2a3f4b1e][ExtensionHostConnection] <329374> Launched Extension Host Process.
+2024-04-29 05:08:59.099 [info] Getting Manifest... github.copilot-chat
+2024-04-29 05:08:59.166 [info] Installing extension: github.copilot-chat
+2024-04-29 05:09:02.968 [info] Extension signature is verified: github.copilot-chat
+2024-04-29 05:09:03.534 [info] Extracted extension to file:///home/bitnami/.vscode-server/extensions/github.copilot-chat-0.14.1: github.copilot-chat
+2024-04-29 05:09:03.543 [info] Renamed to /home/bitnami/.vscode-server/extensions/github.copilot-chat-0.14.1
+2024-04-29 05:09:03.552 [info] Extracting extension completed. github.copilot-chat
+2024-04-29 05:09:03.560 [info] Extension installed successfully: github.copilot-chat
+2024-04-29 05:09:03.568 [info] Marked extension as uninstalled github.copilot-chat-0.2.2
+2024-04-29 05:13:53.517 [info] New EH opened, aborting shutdown
+2024-04-29 05:25:35.183 [info] [127.0.0.1][2a3f4b1e][ExtensionHostConnection] The client has reconnected.
+2024-04-29 05:25:36.093 [info] [127.0.0.1][8d7da530][ManagementConnection] The client has reconnected.
+2024-04-29 05:25:39.566 [info] [127.0.0.1][2a3f4b1e][ExtensionHostConnection] The client has reconnected.
+2024-04-29 05:37:45.852 [info] [127.0.0.1][8d7da530][ManagementConnection] The client has reconnected.
+2024-04-29 05:38:01.626 [info] [127.0.0.1][2a3f4b1e][ExtensionHostConnection] The client has reconnected.
+2024-04-29 05:51:31.132 [info] [127.0.0.1][2a3f4b1e][ExtensionHostConnection] The client has reconnected.
+2024-04-29 05:51:31.922 [info] [127.0.0.1][8d7da530][ManagementConnection] The client has reconnected.
+2024-04-29 05:51:35.259 [info] [127.0.0.1][2a3f4b1e][ExtensionHostConnection] The client has reconnected.
+2024-04-29 05:57:17.114 [info] [127.0.0.1][8d7da530][ManagementConnection] The client has reconnected.
+2024-04-29 05:57:50.240 [info] [127.0.0.1][2a3f4b1e][ExtensionHostConnection] The client has reconnected.
+2024-04-29 05:57:58.073 [info] [127.0.0.1][2a3f4b1e][ExtensionHostConnection] The client has reconnected.
+2024-04-29 05:57:58.960 [info] [127.0.0.1][8d7da530][ManagementConnection] The client has reconnected.
+2024-04-29 05:58:02.806 [info] [127.0.0.1][2a3f4b1e][ExtensionHostConnection] The client has reconnected.
+2024-04-29 06:10:04.028 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-04-29 06:10:04.034 [info] [127.0.0.1][8d7da530][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-04-29 07:08:01.422 [info] [127.0.0.1][8d7da530][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-04-29 07:08:01.423 [info] [127.0.0.1][8d7da530][ManagementConnection] The client has reconnected.
+2024-04-29 07:13:02.407 [info] [127.0.0.1][2a3f4b1e][ExtensionHostConnection] <329374> Extension Host Process exited with code: 0, signal: null.
+2024-04-29 07:13:02.407 [info] Last EH closed, waiting before shutting down
+2024-04-29 07:18:02.408 [info] Last EH closed, shutting down

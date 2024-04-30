@@ -1,0 +1,17 @@
+2024-04-29 04:14:02.289 [info] Extension host with pid 327833 started
+2024-04-29 04:14:02.328 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/19dd6934f83ad7a514f674d56b985eb1/vscode.lock': Lock acquired.
+2024-04-29 04:14:02.409 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-29 04:14:02.413 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-04-29 04:14:02.413 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-04-29 04:14:02.780 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-04-29 04:14:02.780 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-04-29 04:14:03.430 [info] Eager extensions activated
+2024-04-29 04:14:03.430 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 04:14:03.431 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 04:14:03.432 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 04:14:03.432 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 04:45:52.800 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-04-29 04:46:00.367 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-04-29 04:59:09.966 [info] Extension host terminating: received terminate message from renderer
+2024-04-29 04:59:09.966 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/19dd6934f83ad7a514f674d56b985eb1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-04-29 04:59:10.027 [info] Extension host with pid 327833 exiting with code 0

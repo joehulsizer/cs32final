@@ -1,0 +1,17 @@
+2024-04-29 18:43:16.012 [info] [auth] Invalid copilot token: missing token: 403 
+2024-04-29 18:43:16.016 [info] [auth] Invalid copilot token: missing token: 403 
+2024-04-29 18:44:57.861 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-29 18:44:57.861 [info] [code-referencing] Public code references are enabled.
+2024-04-29 18:44:58.210 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-29 18:44:58.210 [info] [code-referencing] Public code references are enabled.
+2024-04-29 19:09:58.648 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-29 19:09:58.649 [info] [code-referencing] Public code references are enabled.
+2024-04-29 19:34:59.414 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-29 19:34:59.414 [info] [code-referencing] Public code references are enabled.
+2024-04-29 20:00:00.069 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-29 20:00:00.077 [info] [code-referencing] Public code references are enabled.
+2024-04-29 20:25:00.552 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-29 20:25:00.553 [info] [code-referencing] Public code references are enabled.
+2024-04-29 21:00:10.013 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2024-04-29 21:00:10.013 [info] [code-referencing] Public code references are enabled.
+2024-04-29 22:08:28.986 [error] [auth] Extension activation failed: "Canceled"

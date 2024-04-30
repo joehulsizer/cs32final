@@ -1,0 +1,20 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:46067 (IPv4)
+Extension host agent listening on 46067
+
+[07:18:27] 
+
+
+
+
+[07:18:27] Extension host agent started.
+[07:18:27] Deleted uninstalled extension from disk github.copilot-chat /home/bitnami/.vscode-server/extensions/github.copilot-chat-0.2.2
+[07:18:27] [127.0.0.1][8d7da530][ManagementConnection] Unknown reconnection token (never seen).
+Last EH closed, shutting down
+[07:23:27] Last EH closed, shutting down

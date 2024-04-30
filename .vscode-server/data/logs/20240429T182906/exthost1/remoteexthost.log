@@ -1,0 +1,164 @@
+2024-04-29 18:29:08.271 [info] Extension host with pid 1451 started
+2024-04-29 18:29:08.271 [error] Error: EEXIST: file already exists, open '/home/bitnami/.vscode-server/data/User/workspaceStorage/19dd6934f83ad7a514f674d56b985eb1/vscode.lock'
+2024-04-29 18:29:08.283 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/19dd6934f83ad7a514f674d56b985eb1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-04-29 18:29:08.298 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/19dd6934f83ad7a514f674d56b985eb1/vscode.lock': The pid 335502 appears to be gone.
+2024-04-29 18:29:08.298 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/19dd6934f83ad7a514f674d56b985eb1/vscode.lock': Deleting a stale lock.
+2024-04-29 18:29:08.305 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/19dd6934f83ad7a514f674d56b985eb1/vscode.lock': Lock acquired.
+2024-04-29 18:29:08.420 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-29 18:29:08.422 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-04-29 18:29:09.416 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-29 18:29:09.584 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-29 18:29:09.585 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-29 18:29:10.631 [info] Eager extensions activated
+2024-04-29 18:29:10.631 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 18:29:10.632 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 18:29:10.633 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 18:29:10.647 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-04-29 18:38:28.594 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-04-29 18:42:59.031 [error] Error: command 'github.copilot.generate' not found
+    at S.n (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1602:23049)
+    at S.executeCommand (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1602:22978)
+2024-04-29 18:43:19.105 [error] CopilotAuthError: Your account's billing is currently locked because recent account charges have failed. Please check the 'Billing & plans' section in your settings. You are currently logged in as joehulsizer.
+    at authShowWarnings (/home/bitnami/.vscode-server/extensions/github.copilot-1.184.0/extension/src/auth.ts:156:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EM.getCopilotToken (/home/bitnami/.vscode-server/extensions/github.copilot-1.184.0/extension/src/auth.ts:186:33)
+    at onDidChangeSessionsHandler (/home/bitnami/.vscode-server/extensions/github.copilot-1.184.0/extension/src/session.ts:78:13)
+    at /home/bitnami/.vscode-server/extensions/github.copilot-1.184.0/extension/src/extension.ts:174:9
+2024-04-29 18:43:19.107 [error] CopilotAuthError: Your account's billing is currently locked because recent account charges have failed. Please check the 'Billing & plans' section in your settings. You are currently logged in as joehulsizer.
+    at authShowWarnings (/home/bitnami/.vscode-server/extensions/github.copilot-1.184.0/extension/src/auth.ts:156:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EM.getCopilotToken (/home/bitnami/.vscode-server/extensions/github.copilot-1.184.0/extension/src/auth.ts:186:33)
+    at onDidChangeSessionsHandler (/home/bitnami/.vscode-server/extensions/github.copilot-1.184.0/extension/src/session.ts:78:13)
+    at /home/bitnami/.vscode-server/extensions/github.copilot-1.184.0/extension/src/extension.ts:174:9
+2024-04-29 18:43:19.108 [error] Error: Failed to get copilot token
+    at GPe (/home/bitnami/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:131:14356)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UR.getCopilotToken (/home/bitnami/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:131:14922)
+    at FR (/home/bitnami/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:131:13024)
+    at /home/bitnami/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:984:3458
+2024-04-29 18:43:19.125 [error] Error: Failed to get copilot token
+    at GPe (/home/bitnami/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:131:14356)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at UR.getCopilotToken (/home/bitnami/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:131:14922)
+    at FR (/home/bitnami/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:131:13024)
+    at /home/bitnami/.vscode-server/extensions/github.copilot-chat-0.14.1/dist/extension.js:984:3458
+2024-04-29 18:44:35.919 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-29 18:45:15.926 [error] Error: command 'github.copilot.generate' not found
+    at S.n (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1602:23049)
+    at S.executeCommand (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1602:22978)
+2024-04-29 18:46:43.411 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-04-29 18:56:42.527 [error] [vscode.emmet] provider FAILED
+2024-04-29 18:56:42.550 [error] TypeError: Cannot read properties of undefined (reading 'find')
+    at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/emmet/dist/node/emmetNodeMain.js:1:130881)
+    at t.DefaultCompletionItemProvider.provideCompletionItems (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/emmet/dist/node/emmetNodeMain.js:1:129240)
+    at De.provideCompletionItems (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:104965)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:127523
+    at Re.s (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:118853)
+    at Re.$provideCompletionItems (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:127509)
+    at l.S (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:5502)
+    at l.Q (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:5268)
+    at l.M (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:4323)
+    at l.L (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:3440)
+    at o.value (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2227)
+    at s.y (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+    at r.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:14173)
+    at o.value (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:177:8018)
+    at s.y (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+    at r.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:14173)
+    at d.z (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:17238)
+    at o.value (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:15690)
+    at s.y (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+    at g.acceptChunk (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:11947)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:11234
+    at Socket.k (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:174:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2024-04-29 18:56:50.094 [error] [vscode.emmet] provider FAILED
+2024-04-29 18:56:50.095 [error] TypeError: Cannot read properties of undefined (reading 'find')
+    at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/emmet/dist/node/emmetNodeMain.js:1:130881)
+    at t.DefaultCompletionItemProvider.provideCompletionItems (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/emmet/dist/node/emmetNodeMain.js:1:129240)
+    at De.provideCompletionItems (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:104965)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:127523
+    at Re.s (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:118853)
+    at Re.$provideCompletionItems (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:127509)
+    at l.S (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:5502)
+    at l.Q (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:5268)
+    at l.M (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:4323)
+    at l.L (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:3440)
+    at o.value (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2227)
+    at s.y (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+    at r.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:14173)
+    at o.value (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:177:8018)
+    at s.y (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+    at r.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:14173)
+    at d.z (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:17238)
+    at o.value (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:15690)
+    at s.y (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+    at g.acceptChunk (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:11947)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:11234
+    at Socket.k (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:174:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2024-04-29 18:56:50.427 [error] [vscode.emmet] provider FAILED
+2024-04-29 18:56:50.430 [error] TypeError: Cannot read properties of undefined (reading 'find')
+    at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/emmet/dist/node/emmetNodeMain.js:1:130881)
+    at t.DefaultCompletionItemProvider.provideCompletionItems (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/emmet/dist/node/emmetNodeMain.js:1:129240)
+    at De.provideCompletionItems (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:104965)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:127523
+    at Re.s (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:118853)
+    at Re.$provideCompletionItems (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:127509)
+    at l.S (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:5502)
+    at l.Q (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:5268)
+    at l.M (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:4323)
+    at l.L (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:3440)
+    at o.value (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2227)
+    at s.y (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+    at r.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:14173)
+    at o.value (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:177:8018)
+    at s.y (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+    at r.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:14173)
+    at d.z (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:17238)
+    at o.value (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:15690)
+    at s.y (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.fire (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+    at g.acceptChunk (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:11947)
+    at /home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:107:11234
+    at Socket.k (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:174:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2024-04-29 22:08:28.488 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-04-29 22:08:28.492 [info] Lock '/home/bitnami/.vscode-server/data/User/workspaceStorage/19dd6934f83ad7a514f674d56b985eb1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-04-29 22:08:29.004 [error] Canceled: Canceled
+    at new O (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:144:46998)
+    at l.U (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:5539)
+    at Proxy.T.<computed>.F.charCodeAt.T.<computed> (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:151:2993)
+    at d.g (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:186335)
+    at d.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:185773)
+    at E.registerCommand.description (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:185097)
+    at d.h (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:186874)
+    at d.g (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:185866)
+    at d.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:154:185773)
+    at Object.executeCommand (/home/bitnami/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/workbench/api/node/extensionHostProcess.js:164:22785)
+    at /home/bitnami/.vscode-server/extensions/github.copilot-1.184.0/extension/src/auth.ts:138:18
+    at new Promise (<anonymous>)
+    at handleAuthenticationError (/home/bitnami/.vscode-server/extensions/github.copilot-1.184.0/extension/src/auth.ts:122:12)
+    at attemptAuthentication (/home/bitnami/.vscode-server/extensions/github.copilot-1.184.0/extension/src/auth.ts:86:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) setContext undefined
+2024-04-29 22:08:29.041 [info] Extension host with pid 1451 exiting with code 0

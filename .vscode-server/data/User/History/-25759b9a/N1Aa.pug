@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Learn a Random Topic
+    link(rel="stylesheet" href="knowl.css")
+  body
+    header
+      img(src="Unknown.jpeg" alt="InfoExplorer Logo" id="company-logo")
+      h1#company-name InfoExplorer
+    #welcome-screen
+      .welcome-container
+        button#generate-article Learn Random Topic
+        button#view-saved View Saved Topics
+        button#learn-specific-topic Learn a Specific Topic
+        #specific-topic-form(style="display:none;")
+          input(type="text" id="specific-topic-text" placeholder="Enter a topic to learn about...")
+          button#submit-specific-topic Submit
+    .loading-screen#loading-screen
+      .spinner
+      p Please wait while we generate your increased knowledge...
+    #article-screen(style="display: none;")
+      h1#article-title
+      p#article-summary
+      .image-container
+        img#article-image1(src="" alt="Article Image 1")
+        img#article-image2(src="" alt="Article Image 2")
+      button#save-article Save Topic
+      button#generate-another Generate Another Topic
+      button#back-to-main Back to Main
+      button#learn-more Learn More
+      #options-box(style="display:none;")
+        button#explain-simpler Explain Simpler
+        button#more-in-depth More In-Depth
+        button#more-talking-points More Talking Points
+    #saved-articles-screen(style="display: none;")
+      h1 Saved Topics
+      #saved-articles
+      button#back-to-main_saved Back to Main
+      button#clear-topics Clear Topics
+    #detailed-topic-screen(style="display: none;")
+      h1#detailed-topic-title
+      .image-container
+        img#detailed-topic-image1(src="" alt="Detailed Topic Image 1")
+        img#detailed-topic-image2(src="" alt="Detailed Topic Image 2")
+      button#back-to-saved Back to Saved Topics
+    script(src="subjects.js")
+    script(src="app.js")
+    script(src="groq.js") // Link to the new ChatGPT integration script
