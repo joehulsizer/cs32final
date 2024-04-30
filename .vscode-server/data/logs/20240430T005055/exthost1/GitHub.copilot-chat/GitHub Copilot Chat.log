@@ -34,3 +34,6 @@ Its package.json#enabledApiProposals-property declares: handleIssueUri, interact
 2024-04-30 02:27:18.509 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 292 ms
 2024-04-30 02:27:18.680 [info] [streamMessages] message 0 returned. finish reason: [client-trimmed]
 2024-04-30 02:27:18.681 [info] [streamChoices] request done: requestId: [e91a0c8f-959f-4d5d-931e-dd4da634de09] responseId: [e91a0c8f-959f-4d5d-931e-dd4da634de09] model deployment ID: [x4dff5e5d11fc]
+2024-04-30 02:31:07.781 [info] [auth] Logged in as joehulsizer
+2024-04-30 02:31:07.990 [info] [chat] copilot token chat_enabled: true
+2024-04-30 02:31:07.991 [info] [auth] Got Copilot token for joehulsizer
